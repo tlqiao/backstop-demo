@@ -1,0 +1,18 @@
+{
+  "name": "backstopjs-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "init": "backstop init",
+    "reference": "backstop reference",
+    "approve": "backstop approve --config=backstop_config/backstopConfig.js",
+    "test": "npm run visualTest",
+    "visualTest": "rm -rf backstop_data/bitmaps_test && backstop test --config=backstop_config/backstopConfig.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "backstopjs": "v3.8.5"
+  }
+}
